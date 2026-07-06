@@ -127,7 +127,6 @@ a:active {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr;
-    align-items: stretch;
     grid-template-areas:
         "hero bio";
 }
