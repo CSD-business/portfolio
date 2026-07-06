@@ -119,6 +119,18 @@ a:active {
     grid-template-areas:
         "hero bio";
 }
+.hero-row-reverse{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px 24px;
+    padding-top: 28px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    align-items: stretch;
+    grid-template-areas:
+        "hero bio";
+}
 
 .hero.card {
     padding: 16px;
@@ -143,6 +155,15 @@ a:active {
     background: #8F2D56;
 }
 
+.info-card {
+    padding: 8px;
+    border-radius: 14px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+}
 .rounded-image {
     margin: auto;
     width: 100%;
@@ -153,4 +174,11 @@ a:active {
     margin: auto;
     width: 100%;
     border-radius: 25px; /* Adjust the pixel value for more or less rounding */
+}
+
+.small-thumbnail {
+  margin: auto;
+  max-height: 300px;
+  border-radius: 10px;
+  height: auto;
 }
